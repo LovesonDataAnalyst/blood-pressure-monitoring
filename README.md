@@ -194,7 +194,8 @@ Score	Niveau
 ≥ 85	CRITICAL
 📊 Aperçu du Dashboard
 
-<img width="953" height="416" alt="image" src="https://github.com/user-attachments/assets/bf925d8b-9fdc-45da-9342-092f8f7c4b38" />
+<img width="959" height="414" alt="image" src="https://github.com/user-attachments/assets/f3a9800c-1753-4778-830d-642b57f176d2" />
+
 
 docs/dashboard.png
 
