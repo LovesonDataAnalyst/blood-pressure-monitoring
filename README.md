@@ -22,12 +22,16 @@ Une structuration de projet proche d’un environnement production
 
  Architecture
 Producer (Observations FHIR)
+
         ↓
 Kafka Topic (blood-pressure)
+
         ↓
 Consumer ML (Anomalie + Score de Risque)
+
         ↓
 Index Elasticsearch (blood-pressure-ml)
+
         ↓
 Dashboard Kibana (Monitoring temps réel)
 ⚙️ Stack Technique
@@ -90,19 +94,24 @@ Registre des patients les plus vulnérables
 
 📁 Structure du Projet
 blood-pressure-monitoring/
+
 │
 ├── App/
+
 │   ├── Producer/
+
 │   │   └── producer_data_generator.py
 │   ├── Consumer/
 │   │   └── consumer_ml.py
 │   └── Config/
 │       └── thresholds.json
+
 │
 ├── ML/
 │   ├── train_model.py
 │   ├── bp_anomaly_model.pkl
 │
+
 ├── Data/
 │   └── blood_pressure_dataset.csv
 │
@@ -117,6 +126,11 @@ blood-pressure-monitoring/
 └── .gitignore
 
 🚀 Lancer le Projet
+
+## Installation des dépendances
+
+pip install -r requirements.txt
+
 1️⃣ Démarrer l’infrastructure
 docker compose up -d
 
