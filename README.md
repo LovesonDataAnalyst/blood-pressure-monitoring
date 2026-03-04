@@ -114,15 +114,20 @@ blood-pressure-monitoring/
 
 ├── Data/
 │   └── blood_pressure_dataset.csv
+
 │
 ├── docker/
 │   └── docker-compose.yml
+
 │
 ├── kibana/
 │   └── dashboard.ndjson
 │
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 🚀 Lancer le Projet
@@ -254,7 +259,7 @@ Réentraînement automatique du modèle
 
 Pipeline CI/CD
 
-👤 Auteur
+👤 Auteurs
 
 Love-son Sauveur, Nithilan Sivaanpu, Billal Biad 
 
